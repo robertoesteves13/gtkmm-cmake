@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.8.2 -->
+<interface>
+  <!-- interface-name main_window.ui -->
+  <requires lib="gtk" version="4.0"/>
+  <object class="GtkWindow">
+    <child>
+      <object class="GtkButton">
+        <property name="label">Hello World!</property>
+      </object>
+    </child>
+  </object>
+</interface>
