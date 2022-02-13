@@ -6,6 +6,8 @@ This repository holds the project struture that has gtkmm configured to bundle r
 
 This template will suppose you have the gtkmm-4 library and it's dependencies installed in your system, so check out how to install for your system. Alternatively, you can use [vcpkg](https://github.com/microsoft/vcpkg).
 
+If you're using Windows make sure you install [pkg-config](https://sourceforge.net/projects/pkgconfiglite/files/)
+
 ## Why CMake?
 
 To be honest, I just wanted to practice more about CMake :). Maybe I setup meson in this project in the future.
