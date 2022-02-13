@@ -23,7 +23,7 @@ MainWindow *MainWindow::create() {
   auto screen = Gdk::Display::get_default();
   auto context = window->get_style_context();
 
-  context->add_provider_for_display(screen, styleProvider, 200);
+  context->add_provider_for_display(screen, styleProvider, 800);
 
   return window;
 }
