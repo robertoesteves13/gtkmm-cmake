@@ -2,6 +2,10 @@
 
 This repository holds the project struture that has gtkmm configured to bundle resource files with the binary so anyone can quickly start to program without the need to setup the build. Also it uses CMake instead of Meson
 
+## Requirements
+
+This template will suppose you have the gtkmm-4 library and it's dependencies installed in your system, so check out how to install for your system. Alternatively, you can use [vcpkg](https://github.com/microsoft/vcpkg).
+
 ## Why CMake?
 
 To be honest, I just wanted to practice more about CMake :). Maybe I setup meson in this project in the future.
