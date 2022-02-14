@@ -6,6 +6,9 @@
     <property name="title">Hi!</property>
     <child>
       <object class="GtkBox">
+        <style>
+          <class name="content"/>
+        </style>
         <property name="halign">center</property>
         <property name="valign">center</property>
         <property name="orientation">vertical</property>
